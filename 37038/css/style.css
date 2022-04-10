@@ -1,0 +1,32 @@
+body {
+    margin-right: 1000px;
+    border: 3px solid grey;
+    
+}
+
+.menu-item {
+    border: 3px solid grey;
+    display: inline-block; 
+    padding: 10px 20px;
+
+}
+
+header {
+    background-color: rgba(255, 166, 0, 0.918);
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+section {
+    background-color: green;
+    margin-top: 25px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: grey;
+    margin-top: 25px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
