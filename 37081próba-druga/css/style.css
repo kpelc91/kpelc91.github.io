@@ -1,0 +1,43 @@
+.squard {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.one {
+    background-color: rgb(223, 76, 76);
+}
+
+.two {
+    background-color: blue; 
+    left: 100px;
+    margin-left: 15px;
+}
+
+.three {
+    background-color: rgb(5, 98, 5);
+    left: 200px;
+    margin-left: 20px;
+}
+
+.wheel {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.purple {
+    background-color: purple;
+}
