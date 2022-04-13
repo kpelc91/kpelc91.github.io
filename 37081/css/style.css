@@ -1,0 +1,96 @@
+.big-square {
+    height: 310px;
+    width: 310px;
+    position: absolute;
+    background-color: rgba(white, 0, 0);
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: rosybrown;
+    display: inline-block;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 100%;
+    left: 25px;
+    top: 25px;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: blue;
+}
+
+.three {
+    background-color: green;
+}
+
+.four {
+    background-color: yellow;
+}
+
+.five {
+    background-color: black;
+}
+
+.six {
+    background-color: orange;
+}
+
+.seven {
+    background-color: purple;
+}
+
+.eight {
+    background-color: gray;
+}
+
+.nine {
+    background-color: pink;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
