@@ -1,0 +1,48 @@
+.one {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(223, 76, 76);
+    display: inline-block ;
+    position: relative;
+}
+
+.two {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(223, 76, 76);
+    display: block;
+    position: relative;
+}
+
+
+.three {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(223, 76, 76);
+    display: block;
+    position: relative;
+}
+
+.wheel {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: relative;
+    display: block;
+}
+
+.pink {
+    background-color: rgb(237, 139, 156);
+    position: relative;
+    top: -40px;
+    left: 120px;
+}
+
+.gray {
+    background-color: gray;
+    position: relative;
+    top: -40px;
+    left: 120px;
+    
+}
