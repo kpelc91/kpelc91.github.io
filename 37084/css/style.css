@@ -15,6 +15,7 @@
 
 #columns {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .left,
@@ -31,7 +32,7 @@
 }
 
 .center {
-    background-color: rgb(56, 123, 167);
+    background-color: rgb(131, 199, 244);
     width: 60%;
 }
 
@@ -40,21 +41,21 @@
     width: 20%;
 }
 
-
-@media (min-width: 992px) {
-    #columns {
+@media (min-width: 768px) and (max-width: 992px) {
+    .left {
         width: 100%;
     }
-}
 
-@media (min-width: 768px) and (max-width: 992px) {
-    #columns {
+    .center,
+    .right {
         width: 100%;
     }
 }
 
 @media (max-width: 768px) {
-    #columns {
+    .left,
+    .center,
+    .right {
         width: 100%;
     }
 }
