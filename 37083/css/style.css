@@ -1,121 +1,80 @@
+@keyframes count {
+    0% {
+     opacity: 0; 
+    }
+
+    50% {
+    opacity: 1; 
+    }
+        
+    100% {
+       opacity: 0; 
+    }
+}
+
+
 .animation {
     height: 200px;
     width: 500px;
     background-color: black;
     position: relative;
-
-}
-
-@keyframes count {
-    0% {
-          
-    }
-
-    10% {
-        
-    }
-
-    20% {
-        
-    }
-
-    30% {
-        
-    }
-
-    40% {
-        
-    }
-
-    50% {
-        
-    }
-
-    60% {
-        
-    }
-
-    70% {
-        
-    }
-
-    80% {
-        
-    }
-
-    90% {
-        
-    }
-    100% {
-        
-    }
 }
 
 .number,
 .text {
     animation-name: count;
-    animation-duration: 11s;
+    animation-duration: 1s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
     color: white;
+    font-size: 350%;
     text-align: center;
     position: absolute;
-    left: 45%;
-    top: 45%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     opacity: 0;
 }
 
 .ten {
     animation-delay: 1s;
-    animation-duration: 1s;
 }
 
 .nine {
     animation-delay: 2s;
-    animation-duration: 1s;
 }
 
 .eight {
     animation-delay: 3s;
-    animation-duration: 1s;
 }
 
 .seven {
     animation-delay: 4s;
-    animation-duration: 1s;
 }
 
 .six {
     animation-delay: 5s;
-    animation-duration: 1s;
 }
 
 .five {
     animation-delay: 6s;
-    animation-duration: 1s;
 }
 
 .four {
     animation-delay: 7s;
-    animation-duration: 1s;
 }
 
 .three {
     animation-delay: 8s;
-    animation-duration: 1s;
 }
 
 .two {
     animation-delay: 9s;
-    animation-duration: 1s;
 }
 
 .one {
     animation-delay: 10s;
-    animation-duration: 1s;
 }
 
 .text {
     animation-delay: 11s;
-    animation-duration: 1s;
 }
