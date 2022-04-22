@@ -1,8 +1,3 @@
-body {
-    height: 400px;
-    width: 700px;
-}
-
 #header {
     background-color: red;
 }
@@ -15,24 +10,51 @@ body {
 #footer {
     color: white;
     text-align: center;
+    text-transform: uppercase;
+}
+
+#columns {
+    display: flex;
 }
 
 .left,
 .center,
 .right {
-    flex-direction: column;
     color: white;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .left {
     background-color: green;
+    width: 20%;
 }
 
-.center > p {
+.center {
     background-color: rgb(56, 123, 167);
+    width: 60%;
 }
 
 .right {
     background-color: pink;
+    width: 20%;
+}
+
+
+@media (max-width: 992px) {
+    #columns {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #columns {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    #columns {
+        width: 100%;
+    }
 }
