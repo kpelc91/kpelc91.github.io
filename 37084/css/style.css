@@ -1,0 +1,38 @@
+body {
+    height: 400px;
+    width: 700px;
+}
+
+#header {
+    background-color: red;
+}
+
+#footer {
+    background-color: rgb(153, 77, 184);
+}
+
+#header,
+#footer {
+    color: white;
+    text-align: center;
+}
+
+.left,
+.center,
+.right {
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.left {
+    background-color: green;
+}
+
+.center > p {
+    background-color: rgb(56, 123, 167);
+}
+
+.right {
+    background-color: pink;
+}
