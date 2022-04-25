@@ -18,6 +18,10 @@
     flex-wrap: wrap;
 }
 
+.paragraph {
+    margin-top: 0;
+}
+
 .left,
 .center,
 .right {
@@ -48,15 +52,16 @@
 
 @media (min-width: 768px) and (max-width: 992px) {
     .center {
-        width: 80%;
+        flex-basis: 80%;
     }
     
     .right {
-        width: 20%;
+        flex-basis: 20%;
     }
 
     .left {
-        width: 100%;
+        flex-basis: 100%;
+        order: 1;
     }
 }
 
@@ -64,6 +69,10 @@
     .left,    
     .center,
     .right {
-        width: 100%;
+        flex-basis: 100%;
+    }
+
+    .center {
+        order: -1;
     }
 }
