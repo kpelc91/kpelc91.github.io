@@ -26,34 +26,42 @@
     text-transform: uppercase;
 }
 
+.left,
+.right {
+    width: 20%;
+    padding-bottom: 50px;
+}
+
 .left {
     background-color: green;
-    width: 20%;
 }
 
 .center {
-    background-color: rgb(131, 199, 244);
     width: 60%;
+    background-color: rgb(131, 199, 244);
 }
 
 .right {
     background-color: pink;
-    width: 20%;
 }
 
+
 @media (min-width: 768px) and (max-width: 992px) {
-    .left {
-        width: 100%;
+    .center {
+        width: 80%;
+    }
+    
+    .right {
+        width: 20%;
     }
 
-    .center,
-    .right {
+    .left {
         width: 100%;
     }
 }
 
 @media (max-width: 768px) {
-    .left,
+    .left,    
     .center,
     .right {
         width: 100%;
